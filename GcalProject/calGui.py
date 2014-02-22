@@ -16,6 +16,8 @@ class GuiCal:
         self.monAnddate = {1:31,2:28,3:31,4:30,5:31,6:30,7:31,8:31,9:30,10:31,11:30,12:31}
         self.month = ['Jan','Feb','March','April','May','June','July','August','September','October','November','December']
         self.day = [Text(Point(55+idx*30,50),i) for idx,i in enumerate(['Su','Mo','Tu','We','Th','Fr','Sa'])]
+    def hello(self):
+        print("hello")
     def setNewYear(self,year):
         self.year = year
     def drawdate(self,window,month):

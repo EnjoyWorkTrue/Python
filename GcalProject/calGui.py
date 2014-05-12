@@ -171,7 +171,7 @@ def main1():
 
         x = (x-55)/30
         y = (y-70)/25
-        print 'date= ', y*7+x+1
+        
         
 def whichdate(p):
     if (p.getY() - 20)%25<13:

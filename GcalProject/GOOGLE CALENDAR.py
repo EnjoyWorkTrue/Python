@@ -90,7 +90,7 @@ def main():
                         break
                     if choice == 'right':
                         if google.addEvent(cal.year,month,date):
-                            print 'you entered wrong value'
+                           
                             pass
                         else:
                             cal.update1(date,win)
